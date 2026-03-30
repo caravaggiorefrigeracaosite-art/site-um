@@ -137,7 +137,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-contact-header {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-blue);
     color: var(--bg-white);
     padding: 0.6rem 1.5rem;
     border-radius: 4px;
@@ -248,7 +248,7 @@ h1, h2, h3, h4 {
 
 .hero p {
     font-size: 1.15rem;
-    color: var(--text-light);
+    color: var(--text-main);
     margin-bottom: 2.5rem;
     max-width: 650px;
 }
