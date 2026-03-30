@@ -137,7 +137,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-contact-header {
-    background-color: var(--primary-dark);
+    background-color: var(--primary-blue);
     color: var(--bg-white);
     padding: 0.6rem 1.5rem;
     border-radius: 4px;
@@ -231,7 +231,8 @@ h1, h2, h3, h4 {
 .hero {
     padding-top: 140px;
     padding-bottom: 80px;
-    background-color: var(--bg-light);
+    background-image: url('assets/Floco-2.jpg');
+    background-size: cover;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -247,7 +248,7 @@ h1, h2, h3, h4 {
 
 .hero p {
     font-size: 1.15rem;
-    color: var(--text-light);
+    color: var(--text-main);
     margin-bottom: 2.5rem;
     max-width: 650px;
 }
@@ -311,13 +312,20 @@ h1, h2, h3, h4 {
 }
 
 /* Serviços (O Nosso Processo) */
+.servicos {
+    background-image: url('assets/Floco-1.jpg');
+    background-size: cover;
+    background-position: center; /* Garante que a imagem fique centralizada */
+    background-repeat: no-repeat;
+}
+
 .section-header h2 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 
 .section-header p {
-    color: var(--text-light);
+    color: var(--primary-dark);
     max-width: 600px;
     margin: 0 auto;
 }
